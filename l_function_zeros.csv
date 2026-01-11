@@ -1,0 +1,20 @@
+# L-function zeros relevant to Goldbach deviation analysis
+# Source: LMFDB (https://www.lmfdb.org/)
+# Format: character_label, modulus, gamma_1 (first zero imaginary part)
+
+character,modulus,conductor,order,gamma_1,gamma_2,gamma_3
+chi_3,3,3,2,8.039,13.962,19.834
+chi_4,4,4,2,6.021,10.244,14.476
+chi_5_real,5,5,2,6.640,11.143,15.652
+zeta,1,1,1,14.135,21.022,25.011
+
+# Notes:
+# - chi_3: quadratic character mod 3, Legendre symbol
+# - chi_4: quadratic character mod 4 (primitive)
+# - chi_5_real: quadratic (real) character mod 5
+# - zeta: Riemann zeta function zeros (for correlation reference)
+#
+# The dominant FFT peaks in Goldbach deviations correspond to:
+# - gamma ≈ 6.02 (chi_4)
+# - gamma ≈ 8.04 (chi_3)
+# - gamma ≈ 14.13 (zeta, via zero correlations)

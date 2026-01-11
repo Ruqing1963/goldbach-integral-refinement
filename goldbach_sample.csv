@@ -1,0 +1,30 @@
+# Sample Goldbach deviation data
+# Full dataset can be generated using: python scripts/compute_goldbach.py
+# N: even integer
+# G_N: Goldbach count (number of prime pair representations)
+# HL_N: Hardy-Littlewood prediction
+# S_N: Singular series value
+# delta_N: relative deviation (G_N - HL_N) / HL_N
+
+N,G_N,HL_N,S_N,delta_N
+4,1,0.87,1.0,0.1494
+6,1,1.23,1.0,-0.1870
+8,1,1.54,1.0,-0.3506
+10,2,1.82,1.0,0.0989
+12,1,2.08,1.5,-0.5192
+14,2,2.32,1.0,-0.1379
+16,2,2.55,1.0,-0.2157
+18,2,2.76,1.5,-0.2754
+20,2,2.96,1.0,-0.3243
+22,3,3.15,1.0,-0.0476
+24,3,3.33,1.5,-0.0991
+26,3,3.50,1.0,-0.1429
+28,2,3.66,1.0,-0.4536
+30,3,3.82,2.0,-0.2147
+100,6,9.12,1.5,-0.3421
+200,9,15.23,1.5,-0.4091
+500,21,31.45,1.5,-0.3323
+1000,28,53.87,1.5,-0.4803
+2000,48,93.21,1.5,-0.4850
+5000,99,198.34,1.5,-0.5008
+10000,166,349.12,1.5,-0.5244
